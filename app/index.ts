@@ -5,6 +5,7 @@ import product_router from "./routes/product-routes"
 import category_router from "./routes/category-routes"
 import search_router from "./routes/search-routes"
 import authRoutes from "./routes/auth.routes";
+import reportRoutes from "./routes/report-routes";
 
 import mongoose from "mongoose"
 
@@ -17,6 +18,7 @@ app.use("/products", product_router)
 app.use("/catagories", category_router)
 app.use("/search", search_router)
 app.use("/api/auth", authRoutes);
+app.use("/report", reportRoutes);
 
 dotenv.config()
 
