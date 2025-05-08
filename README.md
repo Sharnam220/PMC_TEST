@@ -44,3 +44,6 @@ ts-node-dev	-TypeScript dev server with live reload
 @types/node	-TypeScript definitions for Node.js
 
 command : npm install -D typescript @types/express @types/bcryptjs @types/jsonwebtoken @types/node ts-node-dev
+
+
+For Database Mongo DB is used on localhost:27017
